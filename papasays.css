@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&display=swap');
+.header {
+    font-family: 'Montserrat', sans-serif;
+    width: 13rem;
+    height: 1rem;
+    text-align: center;
+}
+
+#byeheading {
+    margin-top: 2rem;
+    margin-left: 16rem;
+    color: turquoise;
+    width: 55rem;
+    text-align: center;
+}
+
+#comeheading {
+    margin-top: 1rem;
+    margin-left: 16rem;
+    color: rgb(77, 59, 158);
+    width: 55rem;
+    text-align: center;
+}
+
+#byeimg {
+    height: 20rem;
+    width: 12rem;
+    margin-left: 37rem;
+
+}
+
+@keyframes likeicant{
+  from{
+      
+  }
+}
+
+#byeimg:hover{
+    animation-name: likeicant;
+    animation-duration: 2s;
+}
