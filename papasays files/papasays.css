@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    width: 13rem;
+    height: 1rem;
+    text-align: center;
+}
+
+#byeheading {
+    margin-top: 5rem;
+    margin-left: 36rem;
+}
+
+#comeheading {
+    margin-top: 5rem;
+    margin-left: 36rem;
+}
+
+#byeimg {
+    float: right;
+    animation-name: likeicant;
+    animation-duration: 3s;
+    padding: 20rem;
+    animation-delay: 4s;
+}
+
+@keyframes likeicant{
+    from{
+width: 1rem;
+    }
+    to{
+width: 28rem;
+    }
+}
