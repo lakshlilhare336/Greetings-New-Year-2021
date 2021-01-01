@@ -8,7 +8,6 @@
 
 #byeheading {
     margin-top: 2rem;
-    margin-left: 16rem;
     color: turquoise;
     width: 55rem;
     text-align: center;
@@ -16,7 +15,6 @@
 
 #comeheading {
     margin-top: 1rem;
-    margin-left: 16rem;
     color: rgb(77, 59, 158);
     width: 55rem;
     text-align: center;
@@ -25,17 +23,11 @@
 #byeimg {
     height: 20rem;
     width: 12rem;
-    margin-left: 37rem;
-
+    margin-bottom: 28rem;
 }
 
-@keyframes likeicant{
-  from{
-      
-  }
-}
 
-#byeimg:hover{
-    animation-name: likeicant;
-    animation-duration: 2s;
+#byauthor{
+    padding-left: 20rem;
+    width: 14rem;
 }
